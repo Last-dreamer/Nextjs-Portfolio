@@ -1,0 +1,13 @@
+.cv-page {
+  height: 200vh;
+}
+
+.cv-page .cv-title {
+  text-align: center;
+  margin: 20px;
+}
+
+.cv-page .btn {
+  font-size: 34px;
+}
+/*# sourceMappingURL=cv.css.map */

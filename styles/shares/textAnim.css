@@ -1,0 +1,43 @@
+body {
+  background-color: #e6e6e6;
+  background-image: linear-gradient(45deg, #e6e6e6, white);
+  height: 10%;
+}
+
+.glow {
+  text-align: center;
+}
+
+.glow span {
+  color: #ffffff;
+  text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #07c5ff, 0 0 30px #07c5ff, 0 0 40px #07c5ff, 0 0 50px #07c5ff;
+  -webkit-animation: blink 1.5s infinite alternate;
+          animation: blink 1.5s infinite alternate;
+}
+
+.glow .major {
+  display: block;
+  font-size: 50px;
+}
+
+.glow .minor {
+  display: block;
+  font-size: 30px;
+}
+
+@-webkit-keyframes blink {
+  0% {
+  }
+  100% {
+    text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #07c5ff, 0 0 70px #07c5ff, 0 0 80px #07c5ff;
+  }
+}
+
+@keyframes blink {
+  0% {
+  }
+  100% {
+    text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #07c5ff, 0 0 70px #07c5ff, 0 0 80px #07c5ff;
+  }
+}
+/*# sourceMappingURL=textAnim.css.map */

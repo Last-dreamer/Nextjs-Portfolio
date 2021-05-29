@@ -1,0 +1,24 @@
+.cv-page{
+    height: 200vh;
+  
+    .cv-title {
+        text-align: center;
+        margin: 20px;
+        
+    }
+    .btn {
+        font-size: 34px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    
+    .cv-title{
+         
+    }
+
+}
+
+ 
+ 

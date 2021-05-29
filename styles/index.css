@@ -1,0 +1,158 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', 'Helvetica';
+}
+
+.cover {
+  background-image: linear-gradient(45deg, #00aeef 0%, #096fb9 100%);
+  overflow: hidden;
+  position: relative;
+}
+
+.wrapper {
+  min-height: 100vh;
+  min-width: 100vw;
+  margin-top: 0;
+  position: relative;
+}
+
+.main-section {
+  width: 100%;
+  padding: 60px 0 0;
+}
+
+.main-section .background-image {
+  margin-left: 120px;
+}
+
+.hero-section {
+  height: 430px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  color: white;
+  width: 400px;
+  position: relative;
+}
+
+.hero-section h2 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-section-content {
+  position: absolute;
+  bottom: 20px;
+  width: 360px;
+  left: 6%;
+  z-index: 1;
+}
+
+.hero-section-content-intro {
+  font-size: 17px;
+}
+
+.image {
+  width: auto;
+  max-width: 100%;
+  padding-top: 50px;
+}
+
+.hero-welcome-text > h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 27px;
+  margin-top: 80px;
+}
+
+.hero-welcome-bio {
+  margin-top: 20px;
+  color: white;
+}
+
+.hero-welcome-bio .fa-stack {
+  font-size: 28px;
+}
+
+.hero-welcome-bio .list-inline-item > a {
+  color: #373737;
+}
+
+.hero-welcome-wrapper {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.background-image {
+  position: absolute;
+  width: 1762px;
+  height: 493px;
+}
+
+.self-typed {
+  font-size: 37px;
+  font-weight: bolder;
+  color: white;
+}
+
+.port-navbar.port-nav-base.port-nav-default {
+  padding: 30px;
+  background-color: #2C3E50 !important;
+}
+
+.base-page {
+  padding-top: 100px;
+  color: black !important;
+  background-color: white;
+  height: 100vh;
+}
+
+.base-page .page-header-title {
+  font-weight: 800;
+  display: inline-block;
+  margin-bottom: -20px;
+}
+
+.flipper {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative;
+}
+
+.flipper.isflipping {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+
+div.hero-section {
+  margin-left: 190px;
+  margin-top: -45px;
+}
+
+div.hero-section:hover {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    width: 341px;
+  }
+  .hero-section-content {
+    width: 341px;
+  }
+  .base-page {
+    height: 300vh;
+  }
+  div.main-section {
+    padding: 20px;
+  }
+  div.hero-section {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */

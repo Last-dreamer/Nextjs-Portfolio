@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/static/fonts/Montserrat-Regular.ttf');
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Montserrat bold';
+  src: url('/static/fonts/Montserrat-Bold.ttf');
+  font-style: bolder;
+}
+
+
+@import './shares/header';
+@import './index';
+@import './about';
+@import './shares/textAnim';
+@import './shares/portfolio';
+@import './shares/colors';
+@import './shares/mixins';
+@import './cv';
+@import "./contact";
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', monospace;
+  
+ }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,90 @@
+
+@import './shares/mixins';
+
+.about-page {
+ 
+    .left-side {
+      margin-top: 100vh;
+      color: black;
+      background-color: white !important;  
+      text-align: left;
+
+      h4 {
+        text-align: center;
+      }
+    }
+  
+    .fadein {
+      opacity: 0;
+       
+      @include animation-fill-mode(forwards);
+    }
+  
+    .title {
+      @include animation-detail(0.7s);
+    }
+  
+    .subtitle {
+      @include animation-detail(2.2s);
+      font-size: 33px;
+    }
+    
+    .subsubTitle {
+      @include animation-detail(3.6s);
+      font-size: 18px;
+    }
+  
+    @keyframes fadein {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  }
+
+
+  .para {
+      font-size: 30px;  
+  }
+
+
+
+
+  .col {
+    margin-top: 100px;
+  }
+
+
+ h1.title.fadein {
+  font-size:3.5rem;
+  font-weight: 800;
+  font-family: 'Montserrat bold';
+ }
+
+
+  h4.subtitle.fadein {
+    padding-left: 25px;
+    font-size: 30px;
+    letter-spacing: 5px;
+
+  }
+
+  p.subsubTitle {
+    font-size: 20px;
+  }
+
+  @media (max-width: 600px) {
+
+    .col {
+      margin-top: -10px;
+    }
+
+    h4.subtitle.fadein {
+      padding-left: 0; 
+      font-size: 30px;
+      letter-spacing: 1px;
+  
+    }
+
+    p.subsubTitle {
+      padding-bottom: 100px;
+    }
+  }

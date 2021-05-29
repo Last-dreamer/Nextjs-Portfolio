@@ -1,0 +1,134 @@
+.contact-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+.contact-header h1.contact-title {
+  font-size: 100px;
+  font-weight: 800;
+  letter-spacing: -3px;
+}
+
+.contact-header h4 {
+  font-size: 28px;
+  letter-spacing: 6px;
+  padding: 0 40px;
+}
+
+.icons-row {
+  margin-top: 30px;
+  margin-left: -150px;
+}
+
+.icons-row .icon {
+  font-size: 130px;
+  border: 1px solid #adadad;
+  color: #adadad;
+  border-radius: 360px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 40px;
+  padding: 30px;
+  width: 130px;
+}
+
+.icons-row .icon:hover {
+  color: white;
+  background-color: #adadad;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.mcol {
+  padding: 30px;
+  overflow: visible;
+}
+
+.mcol h4 {
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.mcol p {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.mcol:hover p {
+  color: #04cdff;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.mcol:hover h4 {
+  font-weight: 600;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+}
+
+.icons-row .icon {
+  margin-bottom: 20px;
+}
+
+.mcolor {
+  background-color: black !important;
+  padding: 32px !important;
+}
+
+.content-center {
+  text-align: justify;
+  padding-left: 110px;
+}
+
+@media (max-width: 600px) {
+  .contact-header {
+    margin-left: 30px;
+  }
+  .contact-header h1.contact-title {
+    font-size: 40px;
+    margin-left: 60px;
+  }
+  .contact-header h4 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 0 40px;
+    margin-left: 5px;
+  }
+  .contact-header .icons-row {
+    margin-left: 50px;
+  }
+  .contact-header .icons-row h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .content-center {
+    text-align: justify;
+    padding-left: 0;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,MAAM,EAAE,KAAK;CAUhB;;AAXD,AAGI,QAHI,CAGJ,SAAS,CAAC;EACN,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;CAEf;;AAPL,AAQI,QARI,CAQJ,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "cv.scss"
+    ],
+    "names": [],
+    "file": "cv.css"
+}
