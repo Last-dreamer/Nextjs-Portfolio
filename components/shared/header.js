@@ -8,9 +8,7 @@ import {
     Nav,
     NavItem, NavLink} from 'reactstrap';
 import ActiveLink from './activeLink';
-import NavColor from '../../pages/navColor';
 
- 
 
 function Header(props) {
 
@@ -29,9 +27,9 @@ function Header(props) {
     }
 
     return ( 
-    <div>
-      <NavColor mcolor="mcolor">     
-         <Navbar  className={`port-navbar port-nav-base absolute ${props.className} `} color="transparent"  dark expand="md">
+    <div mcolor='mcolor'>
+      {/* <NavColor mcolor="mcolor">      */}
+         <Navbar  className={`port-navbar port-nav-base absolute mcolor ${props.className} `} color="transparent"  dark expand="md">
         <NavbarBrand   className="port-navbar-brand" href="/">
                     <div className="glow"> 
                         <span className="minor">Dreamer</span>
@@ -66,7 +64,7 @@ function Header(props) {
         
         </Collapse>
       </Navbar>
-      </NavColor>
+      {/* </NavColor> */}
 
     </div>
 
